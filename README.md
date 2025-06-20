@@ -20,8 +20,6 @@
 
 ## 🛠️ Technologies Used
 
-> *(Customize this section based on your actual tech stack)*
-
 - Frontend: React / HTML / CSS / JavaScript
 - Backend: Node.js / Express / Django / Flask
 - Database: MongoDB / MySQL / PostgreSQL
