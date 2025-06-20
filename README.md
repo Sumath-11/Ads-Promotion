@@ -1,7 +1,7 @@
 1. HTML Structure
+
 html
-Copy
-Edit
+
 <!DOCTYPE html>
 <html lang="en"> ... </html>
 Basic HTML5 structure with a specified language (en for English).
@@ -16,9 +16,9 @@ Title: The browser title bar or tab title.
 Styles: All CSS is included directly in the <style> tag for simplicity.
 
 Example:
+
 html
-Copy
-Edit
+
 <meta name="description" content="Promote your apps...">
 <meta property="og:title" content="AppAd Network – Promote & Monetize Your Apps">
 These improve visibility in search engines and when shared on social media.
@@ -35,9 +35,10 @@ Components: Header, sections, grids, buttons, forms
 Transitions: Hover effects for app logos
 
 4. Firebase Integration (Script)
+
+
 javascript
-Copy
-Edit
+
 <script type="module">
     import { initializeApp } from ...
 You're using Firebase v9 modular SDK to:
@@ -55,9 +56,9 @@ On form submit, it saves the email to Firestore
 5. Body Content (<body>)
 Sections include:
 ✅ Header
+
 html
-Copy
-Edit
+
 <header>
     <h1>Promote Your App...</h1>
 </header>
@@ -79,9 +80,9 @@ Grid showing mock app logos (e.g., FitTrack, BudgetPro). Uses placeholder.com im
 A quote from a fictional user to add credibility.
 
 ✅ Signup CTA
+
 html
-Copy
-Edit
+
 <form onsubmit="sendSignup(event)">
     <input id="user-email" type="email" />
     <button type="submit">Join Beta</button>
@@ -92,8 +93,7 @@ Captures email and stores in Firebase Firestore on submit.
 Simple copyright:
 
 html
-Copy
-Edit
+
 <footer>
     <p>&copy; 2025 AppAd Network...</p>
 </footer>
